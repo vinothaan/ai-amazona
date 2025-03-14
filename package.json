@@ -9,10 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@hookform/resolvers": "^...",
-    "@prisma/client": "^...",
-    "@stripe/stripe-js": "^...",
-    "@uploadthing/react": "^...",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^...",
