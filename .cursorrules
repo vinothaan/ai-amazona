@@ -1,0 +1,122 @@
+# Cursor Rules
+
+## Instructions
+
+- Record fixes for mistakes or corrections to avoid repetition in the `Lessons` section.
+- Organize thoughts and plan steps before starting a task in the `Scratchpad` section.
+- Clear old tasks if necessary.
+- Use todo markers for progress tracking:
+  - `[X]` Completed tasks
+  - `[ ]` Pending tasks
+- Update Scratchpad after completing subtasks.
+- Reflect and plan after milestones for better task management.
+- Always refer to Scratchpad before planning the next step.
+
+## Lessons
+
+## Scratchpad
+
+### E-commerce Website Development Plan
+
+#### Phase 1: Project Setup and Configuration
+- [X] Initialize Next.js 15 project with TypeScript
+- [X] Set up project structure and folders
+  - [X] Create app/(routes) structure
+  - [X] Set up components folder
+  - [X] Create lib utilities folder
+  - [X] Set up API routes structure
+- [X] Configure ESLint and Prettier
+- [X] Install and configure dependencies
+  - [X] UI: shadcn, lucide-react
+    - [X] Button component
+    - [X] Dropdown menu component
+    - [X] Input component
+    - [X] Card component
+    - [X] Form component
+    - [X] Dialog component
+    - [X] Separator component
+    - [X] Sheet component
+    - [X] Lucide React icons
+  - [X] State: zustand
+  - [X] Forms: react-hook-form, zod
+  - [X] Data visualization: recharts
+  - [X] Email: resend
+  - [X] File upload: uploadthing
+  - [X] Database: prisma, postgresql
+  - [X] Auth: next-auth beta
+  - [X] Payments: stripe
+
+#### Phase 2: Database and Authentication
+- [ ] Set up PostgreSQL database
+- [ ] Configure Prisma schema:
+  - [ ] User model
+  - [ ] Product model
+  - [ ] Category model
+  - [ ] Order model
+  - [ ] Review model
+  - [ ] Cart model
+- [ ] Implement NextAuth.js authentication:
+  - [ ] Email/Password
+  - [ ] OAuth providers (Google, GitHub)
+  - [ ] JWT handling
+  - [ ] Protected routes
+
+#### Phase 3: Core Features Implementation
+- [ ] Create base layouts
+  - [ ] Main layout with navigation
+  - [ ] Admin dashboard layout
+- [ ] Implement product management
+  - [ ] Product listing
+  - [ ] Product details
+  - [ ] Search and filtering
+  - [ ] Categories management
+- [ ] Shopping cart functionality
+  - [ ] Cart state management with Zustand
+  - [ ] Add/remove items
+  - [ ] Update quantities
+- [ ] Checkout process
+  - [ ] Stripe integration
+  - [ ] Order summary
+  - [ ] Payment processing
+  - [ ] Order confirmation
+
+#### Phase 4: Admin Dashboard
+- [ ] Create admin dashboard
+  - [ ] Analytics overview with Recharts
+  - [ ] Sales reports
+  - [ ] User management
+- [ ] Product management interface
+  - [ ] CRUD operations
+  - [ ] Image upload with Uploadthing
+  - [ ] Inventory management
+- [ ] Order management
+  - [ ] Order listing
+  - [ ] Order details
+  - [ ] Order status updates
+
+#### Phase 5: Additional Features
+- [ ] Implement email notifications
+  - [ ] Order confirmations
+  - [ ] Password reset
+  - [ ] Marketing emails
+- [ ] Review system
+  - [ ] Product reviews
+  - [ ] Ratings
+- [ ] User profiles
+  - [ ] Order history
+  - [ ] Saved addresses
+  - [ ] Wishlist
+
+#### Phase 6: Testing and Deployment
+- [ ] Implement testing
+  - [ ] Unit tests
+  - [ ] Integration tests
+  - [ ] E2E tests
+- [ ] Performance optimization
+  - [ ] Image optimization
+  - [ ] Code splitting
+  - [ ] Caching strategies
+- [ ] Deployment
+  - [ ] Environment configuration
+  - [ ] CI/CD setup
+  - [ ] Production deployment
